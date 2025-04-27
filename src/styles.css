@@ -1,0 +1,36 @@
+.App {
+  justify-content: center;
+  align-items: center;
+}
+.toaster {
+  width: 200px;
+  background-color: green;
+  height: 40px;
+  position: relative;
+  animation: slide 1s 1;
+}
+
+.toasterContainer {
+  margin-bottom: 10px;
+}
+
+.success {
+  background-color: rgb(23, 174, 83);
+}
+
+.warning {
+  background-color: rgb(213, 196, 18);
+}
+
+.error {
+  background-color: rgb(220, 43, 43);
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
